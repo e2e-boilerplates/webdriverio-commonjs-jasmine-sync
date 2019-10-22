@@ -8,7 +8,6 @@ exports.config = {
     }
   ],
   logLevel: "silent",
-  baseUrl: "https://www.google.com",
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
