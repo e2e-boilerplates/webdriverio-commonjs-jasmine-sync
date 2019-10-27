@@ -4,6 +4,14 @@ describe("google search", () => {
   });
 
   it("should be on google search page", async () => {
+    browser.waitUntil(
+      () => {
+        return $(".gLFyf.gsfi").isDisplayed() === true;
+      },
+      5000,
+      "expected search bar to be displayed after 5s"
+    );
+
     const title = await browser.getTitle();
     expect(title).toEqual("Google");
   });
@@ -18,11 +26,16 @@ describe("google search", () => {
     googleSearchButton.click();
   });
 
-  it('the page title should start with "Cheese!"', () => {
-    const resultStats = $("#resultStats");
-    resultStats.waitForDisplayed(5000);
+  it('the page title should start with "Cheese!"', async () => {
+    browser.waitUntil(
+      () => {
+        return $("#resultStats").isDisplayed() === true;
+      },
+      5000,
+      "expected search result counter to be displayed after 5s"
+    );
 
-    const title = browser.getTitle();
+    const title = await browser.getTitle();
     const words = title.split(" ");
     expect(words[0]).toEqual("Cheese!");
   });

@@ -8,10 +8,12 @@
   },
   "keywords": [
     "webdriverio",
+    "commonjs",
+    "jasmine",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "@wdio/cli": "^5.15.1",
