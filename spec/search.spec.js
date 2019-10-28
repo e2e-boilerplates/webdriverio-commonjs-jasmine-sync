@@ -1,23 +1,19 @@
+let searchBox;
+
 describe("google search", () => {
   beforeAll(() => {
     browser.url("https://www.google.com/");
   });
 
-  it("should be on google search page", async () => {
-    browser.waitUntil(
-      () => {
-        return $(".gLFyf.gsfi").isDisplayed() === true;
-      },
-      5000,
-      "expected search bar to be displayed after 5s"
-    );
+  it("should be on google search page", () => {
+    searchBox = $(".gLFyf.gsfi");
+    searchBox.waitForDisplayed(5000);
 
-    const title = await browser.getTitle();
+    const title = browser.getTitle();
     expect(title).toEqual("Google");
   });
 
   it("should search for Cheese!", () => {
-    const searchBox = $(".gLFyf.gsfi");
     expect(searchBox.isDisplayed()).toBe(true);
     searchBox.addValue("Cheese!");
 
@@ -26,17 +22,12 @@ describe("google search", () => {
     googleSearchButton.click();
   });
 
-  it('the page title should start with "Cheese!"', async () => {
-    browser.waitUntil(
-      () => {
-        return $("#resultStats").isDisplayed() === true;
-      },
-      5000,
-      "expected search result counter to be displayed after 5s"
-    );
+  it('the page title should start with "Cheese!"', () => {
+    const resultStats = $("#resultStats");
+    resultStats.waitForDisplayed(5000);
 
-    const title = await browser.getTitle();
-    const words = title.split(" ");
-    expect(words[0]).toEqual("Cheese!");
+    const title = browser.getTitle();
+    const isTitleStartWithCheese = title.lastIndexOf("Cheese!", 0) === 0;
+    expect(isTitleStartWithCheese).toBe(true);
   });
 });
