@@ -1,9 +1,9 @@
-name: webdriverio-commonjs-jasmine-sync
+name: webdriverio-commonjs-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: "0 0 1-31/2 * *"
 
 jobs:
   build:
@@ -23,4 +23,6 @@ jobs:
       - name: LINT, TEST
         run: |
           npm run lint
+      - name: TEST
+        run: |
           npm run test-ci
