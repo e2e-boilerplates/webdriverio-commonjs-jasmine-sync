@@ -3,7 +3,7 @@ describe("Sandbox", () => {
     browser.url("https://e2e-boilerplates.github.io/sandbox/");
   });
 
-  it("should be on Sandbox", () => {
+  it("should be on sandbox", () => {
     const title = browser.getTitle();
     const header = $("h1");
 

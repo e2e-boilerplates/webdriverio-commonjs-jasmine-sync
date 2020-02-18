@@ -25,4 +25,4 @@ jobs:
           npm run lint
       - name: TEST
         run: |
-          npm run test-ci
+          npm run test
