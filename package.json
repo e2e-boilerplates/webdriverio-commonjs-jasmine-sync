@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "description": "WebdriverIO end-to-end test automation boilerplate, using CommonJS, Jasmine and Expect.",
   "devDependencies": {
     "@wdio/cli": "5.18.7",
@@ -26,13 +26,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "commonjs",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "webdriverio"
   ],
