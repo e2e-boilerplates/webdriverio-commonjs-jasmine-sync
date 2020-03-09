@@ -1,6 +1,6 @@
 describe("Sandbox", () => {
   beforeAll(() => {
-    browser.url("https://e2e-boilerplates.github.io/sandbox/");
+    browser.url("https://e2e-boilerplate.github.io/sandbox/");
   });
 
   it("should be on sandbox", () => {
