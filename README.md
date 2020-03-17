@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/workflows/webdriverio-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/actions?workflow=webdriverio-commonjs-jasmine-expect)
+[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/workflows/webdriverio-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/actions?workflow=webdriverio-commonjs-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # WebdriverIO Boilerplate
 
