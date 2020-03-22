@@ -1,8 +1,8 @@
-[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/workflows/webdriverio-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/actions?workflow=webdriverio-commonjs-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-jasmine-expect](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/workflows/webdriverio-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/actions?workflow=webdriverio-commonjs-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
 
 # WebdriverIO Boilerplate
 
-WebdriverIO end-to-end test automation boilerplate, using Commonjs, Jasmine and Expect.
+WebdriverIO end-to-end test automation boilerplate, Using Commonjs, Jasmine and Expect.
 
 ## Getting Started
 
