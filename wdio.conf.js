@@ -4,16 +4,16 @@ const headed = {
   specs: ["./spec/*.spec.js"],
   capabilities: [
     {
-      browserName: "chrome"
-    }
+      browserName: "chrome",
+    },
   ],
   logLevel: "silent",
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
   jasmineNodeOpts: {
-    defaultTimeoutInterval: 60000
-  }
+    defaultTimeoutInterval: 60000,
+  },
 };
 
 const headless = {
@@ -24,17 +24,17 @@ const headless = {
     {
       browserName: "chrome",
       "goog:chromeOptions": {
-        args: ["--headless", "--disable-gpu"]
-      }
-    }
+        args: ["--headless", "--disable-gpu"],
+      },
+    },
   ],
   logLevel: "silent",
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
   jasmineNodeOpts: {
-    defaultTimeoutInterval: 60000
-  }
+    defaultTimeoutInterval: 60000,
+  },
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
