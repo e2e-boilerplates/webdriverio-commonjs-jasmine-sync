@@ -21,7 +21,11 @@
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-wdio": "6.0.12",
+<<<<<<< HEAD
     "husky": "4.2.3",
+=======
+    "husky": "4.2.5",
+>>>>>>> 9c9264c9f7d142beddf95d509d9cbc2d2b6bd425
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
