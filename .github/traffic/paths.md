@@ -1,10 +1,5 @@
-| referrer                                                                                             | count | uniques |
-| :--------------------------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commits/master                                  | 6     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect                                                 | 2     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commit/200abc9985618772d1000ff6dbf87a94daed4c11 | 1     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commit/93c13799d966b4b5f09d206b1ec849145b929ca4 | 1     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commit/a124f98d5d870e9b7ca6640df90678122fa956b7 | 1     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commit/c11b9797a67e6c05e22cb2779e42d113fa19f2f8 | 1     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/commit/ff9a3d6ddfcabf21cd6e6b72a57aa33c5f834c2c | 1     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/pull/72                                         | 1     | 1       |
+| referrer                                                            | count | uniques |
+| :------------------------------------------------------------------ | :---- | :------ |
+| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect                | 1     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/graphs/traffic | 1     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-jasmine-expect/pulse          | 1     | 1       |
