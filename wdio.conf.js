@@ -11,9 +11,13 @@ const headed = {
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
+  mochaOpts: {},
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000,
   },
+  cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
+  before: (capabilities, specs) => {},
 };
 
 const headless = {
@@ -24,7 +28,7 @@ const headless = {
     {
       browserName: "chrome",
       "goog:chromeOptions": {
-        args: ["--headless", "--disable-gpu"],
+        args: ["--headless", "--disable-gpu"]
       },
     },
   ],
@@ -32,9 +36,13 @@ const headless = {
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
+  mochaOpts: {},
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000,
   },
+  cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
+  before: (capabilities, specs) => {},
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
