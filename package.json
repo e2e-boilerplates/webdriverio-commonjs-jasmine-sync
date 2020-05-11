@@ -4,10 +4,10 @@
     "url": "https://github.com/e2e-boilerplate/webdriverio-commonjs-jasmine-expect/issues"
   },
   "dependencies": {
-    "@wdio/cli": "6.1.9",
+    "@wdio/cli": "6.1.11",
     "@wdio/dot-reporter": "6.1.9",
     "@wdio/jasmine-framework": "6.1.8",
-    "@wdio/local-runner": "6.1.9",
+    "@wdio/local-runner": "6.1.11",
     "@wdio/sync": "6.1.8",
     "chromedriver": "80.0.2",
     "jasmine": "3.5.0",
