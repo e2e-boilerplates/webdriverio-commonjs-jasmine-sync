@@ -10,7 +10,7 @@
     "@wdio/local-runner": "6.3.5",
     "@wdio/sync": "6.3.3",
     "chromedriver": "83.0.1",
-    "jasmine": "3.6.0",
+    "jasmine": "3.6.1",
     "wdio-chromedriver-service": "6.0.3"
   },
   "description": "WebdriverIO end-to-end test automation boilerplate. Using Commonjs, Jasmine and Expect.",
