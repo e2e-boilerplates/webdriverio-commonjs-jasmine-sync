@@ -1,3 +1,4 @@
+
 const headed = {
   runner: "local",
   path: "/",
@@ -16,8 +17,6 @@ const headed = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
-  // eslint-disable-next-line no-unused-vars
-  before: (capabilities, specs) => {},
 };
 
 const headless = {
@@ -41,8 +40,6 @@ const headless = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
-  // eslint-disable-next-line no-unused-vars
-  before: (capabilities, specs) => {},
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
